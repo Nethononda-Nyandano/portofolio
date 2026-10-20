@@ -45,7 +45,7 @@ const About = () => {
           </p>
 
           <p className="mt-5 max-w-2xl font-aenik-regular text-[17px] leading-[1.9] text-neutral-700">
-            I'm alway experimenting, building personal projects, and pushing
+            I'm always experimenting, building personal projects, and pushing
             myself beyond what I already know. Every challenge is an opportunity
             to grow, and every project is a chance to build something better.
           </p>
