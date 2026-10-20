@@ -21,7 +21,7 @@ const Certificates = () => {
               Proof of learning.
             </h2>
 
-            <p className="mt-5 max-w-lg font-aenik-regular text-sm leading-6 text-neutral-500 md:text-base">
+            <p className="mt-5 hidden md:block max-w-lg font-aenik-regular text-sm leading-6 text-neutral-500 md:text-base">
               Professional certifications and technical achievements earned
               throughout my development journey.
             </p>

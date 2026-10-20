@@ -55,7 +55,7 @@ const BadgeCard = ({ badge }) => {
           </h3>
 
           {/* Fixed-height description */}
-          <p className="line-clamp-3 min-h-[4.5rem] text-sm leading-6 text-neutral-600">
+          <p className="line-clamp-3 min-h-18 text-sm leading-6 text-neutral-600">
             {badge.description || "A professional digital badge recognising this achievement."}
           </p>
 
@@ -78,7 +78,7 @@ const BadgeCard = ({ badge }) => {
           </div>
 
           {/* Footer stays at the bottom */}
-          <div className="mt-auto flex items-center justify-between gap-3 border-t border-neutral-100 pt-4 mt-5">
+          <div className="flex items-center justify-between gap-3 border-t border-neutral-100 pt-4 mt-5">
             <button
               type="button"
               onClick={() => setIsExpanded(true)}

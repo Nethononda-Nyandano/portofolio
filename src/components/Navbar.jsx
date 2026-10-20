@@ -2,7 +2,14 @@ import React from "react";
 import { ArrowUpRight, DownloadIcon, Menu, X } from "lucide-react";
 import { container } from "../data/constants";
 
-const links = ["About", "Work", "Experience","Education","Certificates","Contact"];
+const links = [
+  "About",
+  "Work",
+  "Experience",
+  "Education",
+  "Certificates",
+  "Contact",
+];
 
 const Navbar = ({ scrollTo }) => {
   const [open, setOpen] = React.useState(false);
@@ -25,7 +32,7 @@ const Navbar = ({ scrollTo }) => {
           <div className="text-sm w-5 h-5 border md:w-10  md:h-10 md:text-lg items-center justify-center flex">
             N
           </div>
-          <span className="text-sm md:text-xl">Nyandano Nethononda</span>
+          <span className="text-sm md:text-xl font-aenik-bold">Nyandano Nethononda</span>
         </button>
 
         <div
@@ -44,10 +51,14 @@ const Navbar = ({ scrollTo }) => {
           ))}
         </div>
 
-        <button className="hidden md:flex bg-primary text-white items-center  p-2  px-4 gap-1 hover:-translate-y-1 hover:bg-neutral-800">
+        <a
+          href="/NyandanoNethonondaSoftwareDevelopercv.pdf"
+          download="Nyandano_Nethononda_Resume.pdf"
+          className="hidden md:flex bg-primary text-white items-center p-2 px-4 gap-2 hover:-translate-y-1 hover:bg-neutral-800 transition-all duration-300"
+        >
           Resume
           <DownloadIcon size={16} />
-        </button>
+        </a>
 
         <button
           className="md:hidden"
