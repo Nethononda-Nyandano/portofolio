@@ -32,7 +32,9 @@ const Navbar = ({ scrollTo }) => {
           <div className="text-sm w-5 h-5 border md:w-10  md:h-10 md:text-lg items-center justify-center flex">
             N
           </div>
-          <span className="text-sm md:text-xl font-aenik-bold">Nyandano Nethononda</span>
+          <span className="text-sm md:text-xl font-aenik-bold">
+            Nyandano Nethononda
+          </span>
         </button>
 
         <div
@@ -54,10 +56,11 @@ const Navbar = ({ scrollTo }) => {
         <a
           href="/Nyandano Nethononda Resume.pdf"
           download="Nyandano_Nethononda_Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
           className="hidden md:flex bg-primary text-white items-center p-2 px-4 gap-2 hover:-translate-y-1 hover:bg-neutral-800 transition-all duration-300"
         >
-          Resume
-          <DownloadIcon size={16} />
+          Resume <DownloadIcon size={16} />
         </a>
 
         <button

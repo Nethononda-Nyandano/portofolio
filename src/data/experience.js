@@ -30,7 +30,7 @@ export const experience = [
     location: "Limpopo, South Africa · On-site",
     detail:
       "Developed and maintained a Helpdesk Management System used to manage and track IT support requests. Built full-stack features with PHP, JavaScript, Tailwind CSS and MySQL while working directly with users and stakeholders.",
-    chips: ["PHP", "JavaScript", "Tailwind", "MySQL","JQuery","AJAX","HTML5","CSS3"],
+    chips: ["Tailwindcss","Java( Springboot )", "ReactJS", "Tailwind", "MySQL",],
     logo: "/company-logo/logo.jpg",
   },
 
