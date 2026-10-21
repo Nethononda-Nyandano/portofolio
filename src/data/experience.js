@@ -55,6 +55,6 @@ export const experience = [
     detail:
       "Building full-stack web and mobile applications using Spring Boot, React, React Native, PHP, JavaScript/TypeScript, SQL and modern cloud technologies. Projects include emergency response, helpdesk, community crisis and e-commerce platforms.",
     chips: ["Full-Stack Web & Mobile  Application Developer",],
-    logo: "/public/Black and White Poster.png",
+    logo: "/Black and White Poster.png",
   },
 ];
