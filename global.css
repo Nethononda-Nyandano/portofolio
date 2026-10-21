@@ -1,42 +1,67 @@
 @import "tailwindcss";
 
 @font-face {
-    font-family: "aenik-regular";
-    src: url("./src/assets/font/AeonikTRIAL-Regular.otf");
+  font-family: "aenik-regular";
+  src: url("./src/assets/font/AeonikTRIAL-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "aenik-bold";
-    src: url("./src/assets/font/AeonikTRIAL-Bold.otf");
-}
-
-
-@font-face {
-    font-family: "overcame-bold";
-    src: url("./src/assets/font/OvercameDemoBold.ttf");
+  font-family: "aenik-bold";
+  src: url("./src/assets/font/AeonikTRIAL-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "overcame-outline";
-    src: url("./src/assets/font/OvercameDemoOutline.ttf");
+  font-family: "overcame-bold";
+  src: url("./src/assets/font/OvercameDemoBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
+@font-face {
+  font-family: "overcame-outline";
+  src: url("./src/assets/font/OvercameDemoOutline.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
+@theme {
+  --color-primary: #222222;
+  --color-secondary: #7b7b7b;
+  --color-tertiary: #f8f8f8;
+  --color-white: #ffffff;
 
-@theme{
-    --color-primary:#222222;
-    --color-secondary:#7B7B7B;
-    --color-tertiary:#F8F8F8;
-    --color-white:#FFFFFF;
+  --font-aenik-regular: "aenik-regular";
+  --font-aenik-bold: "aenik-bold";
+  --font-overcame-bold: "overcame-bold";
+  --font-overcame-outline: "overcame-outline";
+}
 
-    --font-aenik-regular:"aenik-regular";
-    --font-aenik-bold:"aenik-bold";
-    --font-overcame-bold:"overcame-bold";
-    --font-overcame-outline:"overcame-outline";
+* {
+  box-sizing: border-box;
 }
 
 html {
   scroll-behavior: smooth;
-  transition: all;
-  
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
 }

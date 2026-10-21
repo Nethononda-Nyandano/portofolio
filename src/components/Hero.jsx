@@ -10,13 +10,11 @@ const Hero = ({ scrollTo }) => {
       className="overflow-hidden bg-neutral-50 pt-28 pb-20 md:pt-40 md:pb-28"
     >
       <div
-        className={`${container} grid grid-cols-1 items-center gap-14 md:grid-cols-[1fr_0.85fr] md:gap-16`}
+        className={`${container} grid grid-cols-1 items-center gap-12 lg:grid-cols-[1fr_0.85fr] lg:gap-16`}
       >
         {/* Introduction */}
         <div className="relative z-10">
-          
-
-          <h1 className="mb-8 font-aenik-bold leading-[0.8] tracking-[-0.07em] text-[clamp(70px,15vw,150px)] md:text-[clamp(100px,10vw,180px)]">
+          <h1 className="mb-8 font-aenik-bold leading-[0.85] tracking-[-0.07em] text-[clamp(64px,9vw,120px)] lg:text-[clamp(100px,8vw,150px)]">
             <span className="inline-block transition-transform duration-500 hover:-translate-y-2">
               Hello
             </span>
@@ -68,12 +66,10 @@ const Hero = ({ scrollTo }) => {
               />
             </a>
           </div>
-
-         
         </div>
 
         {/* Portrait */}
-        <div className="relative mx-auto w-full max-w-500 md:mx-0 md:ml-auto">
+        <div className="relative mx-auto w-full max-w-125 lg:mx-0 lg:ml-auto">
           <div className="group rotate-[1.5deg] bg-white p-4 shadow-[0_30px_80px_rgba(0,0,0,0.08)] transition-transform duration-500 hover:rotate-0 sm:p-5">
             <div className="relative aspect-4/5 overflow-hidden bg-neutral-200">
               <img
@@ -93,7 +89,9 @@ const Hero = ({ scrollTo }) => {
             <div className="flex items-center justify-between gap-3 px-1 pt-4 text-[10px] text-neutral-500 sm:text-xs">
               <span className="font-aenik-bold text-neutral-900 flex flex-col">
                 Nyandano Nethononda
-                <span className="font-aenik-regular italic text-neutral-500">Full-Stack Developer</span>
+                <span className="font-aenik-regular italic text-neutral-500">
+                  Full-Stack Developer
+                </span>
               </span>
 
               <span>Johannesburg, South Africa</span>

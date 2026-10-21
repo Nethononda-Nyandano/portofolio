@@ -22,7 +22,7 @@ const Navbar = ({ scrollTo }) => {
   return (
     <header className="fixed inset-x-0 top-0 z-20 py-5 flex items-center justify-center w-full   bg-primary/20 backdrop-blur-md">
       <nav
-        className={`w-full max-w-7xl  px-5 flex md:h-16 items-center justify-between `}
+        className={`w-full max-w-7xl px-5 md:h-16 flex  items-center justify-between `}
       >
         <button
           className="flex items-center gap-2.5 font-aenik-bold text-xl"
