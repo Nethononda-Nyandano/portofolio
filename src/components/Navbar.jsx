@@ -22,7 +22,7 @@ const Navbar = ({ scrollTo }) => {
   return (
     <header className="fixed inset-x-0 top-0 z-20 py-5 flex items-center justify-center w-full   bg-primary/20 backdrop-blur-md">
       <nav
-        className={`w-full max-w-7xl px-5 md:h-16 flex  items-center justify-between `}
+        className={`w-full max-w-7xl px-5  flex  items-center justify-between `}
       >
         <button
           className="flex items-center gap-2.5 font-aenik-bold text-xl"
@@ -43,7 +43,7 @@ const Navbar = ({ scrollTo }) => {
           {links.map((item) => (
             <button
               key={item}
-              className="text-left font-aenik-regular text-neutral-600 hover:text-black"
+              className="text-left text-sm font-aenik-regular text-neutral-600 hover:text-black"
               onClick={() => handleNav(`#${item.toLowerCase()}`)}
             >
               {item}
@@ -52,7 +52,7 @@ const Navbar = ({ scrollTo }) => {
         </div>
 
         <a
-          href="/NyandanoNethonondaSoftwareDevelopercv.pdf"
+          href="/Nyandano Nethononda Resume.pdf"
           download="Nyandano_Nethononda_Resume.pdf"
           className="hidden md:flex bg-primary text-white items-center p-2 px-4 gap-2 hover:-translate-y-1 hover:bg-neutral-800 transition-all duration-300"
         >
