@@ -60,9 +60,7 @@ const About = () => {
 
                 <span className="mt-2 flex flex-col   font-aenik-regular text-[10px] uppercase tracking-[0.08em] text-neutral-500 sm:text-xs">
                   {stat.label}
-                  {stat.label === "Years  Experience" && (
-                    <span className="font-aenik-regular text-[7px] lowercase">5+ years personal project experience</span>
-                  )}
+                  
                 </span>
               </div>
             ))}
